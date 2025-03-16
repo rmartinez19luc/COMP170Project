@@ -1,5 +1,7 @@
 def main():
     print("Hello")
     print("bye")
+    print("ok") 
+    
 
 main()
