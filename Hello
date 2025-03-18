@@ -2,6 +2,6 @@ def main():
     print("Hello")
     print("bye")
     print("ok") 
-    
+    print ("yay")
 
 main()
