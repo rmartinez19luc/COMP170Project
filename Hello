@@ -3,5 +3,6 @@ def main():
     print("bye")
     print("ok") 
     print ("yay")
+    print("b")
 
 main()
