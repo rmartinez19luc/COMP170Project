@@ -220,12 +220,12 @@ def good_option(reputation):
     return reputation
 
 def bad_option(reputation):
-    reputation += 5
+    reputation -= 10
     print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
 
 def decent_option(reputation):
-    reputation -= 10
+    reputation += 5
     print("\nCould have done better! You gained 5 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
 
