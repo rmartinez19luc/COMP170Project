@@ -16,6 +16,14 @@ def main():
     scenerio_nine(reputation, name)
     scenerio_ten(reputation, name)
 
+    print("\nYour final reputation score is: ", reputation)
+    if reputation >= 55:
+        print("\n Good reputation: You successfully earned yourself a good reputation!")
+    elif 30 <= reputation < 55:
+        print("\nDecent reputation: Not bad, pat yourself on the back and say you made it!")
+    else: 
+        print("\nBad reputation: Ouch, better luck next time my friend.")
+
 def scenerio_one(reputation, name):
     print("\n\n\033[1mDAY 1: MORNING DISASTER\033[0m")
     print("\nYou wake up and tap your phone to check the time. Your phone is dead."
