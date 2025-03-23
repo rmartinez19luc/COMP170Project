@@ -5,16 +5,16 @@ def main():
 
     reputation = 100
 
-    scenerio_one(reputation, name)
-    scenerio_two(reputation, name)
-    scenerio_three(reputation, name)
-    scenerio_four(reputation, name)
-    scenerio_five(reputation, name)
-    scenerio_six(reputation, name)
-    scenerio_seven(reputation, name)
-    scenerio_eight(reputation, name)
-    scenerio_nine(reputation, name)
-    scenerio_ten(reputation, name)
+    reputation = scenerio_one(reputation, name)
+    reputation = scenerio_two(reputation, name)
+    reputation = scenerio_three(reputation, name)
+    reputation = scenerio_four(reputation, name)
+    reputation = scenerio_five(reputation, name)
+    reputation = scenerio_six(reputation, name)
+    reputation = scenerio_seven(reputation, name)
+    reputation = scenerio_eight(reputation, name)
+    reputation = scenerio_nine(reputation, name)
+    reputation = scenerio_ten(reputation, name)
 
     print("\nYour final reputation score is: ", reputation)
     if reputation >= 55:
@@ -54,7 +54,7 @@ def scenerio_one(reputation, name):
     return reputation
 
 def scenerio_two(reputation, name):
-
+    print("Blahblahblah")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -181,6 +181,7 @@ def scenerio_eight(reputation, name):
 
 def scenerio_nine(reputation, name):
     print("Premise, premise, premise")
+    option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
@@ -197,6 +198,7 @@ def scenerio_nine(reputation, name):
 
 def scenerio_ten(reputation, name):
     print("Premise, premise, premise")
+    option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
