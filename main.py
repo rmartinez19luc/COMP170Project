@@ -43,20 +43,14 @@ def scenerio_one(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
-
+        reputation = bad_option(reputation )
+    
     return reputation
 
 def scenerio_two(reputation, name):
@@ -67,19 +61,13 @@ def scenerio_two(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
@@ -91,19 +79,13 @@ def scenerio_three(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation )
 
     return reputation
 
@@ -115,19 +97,13 @@ def scenerio_four(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
@@ -139,19 +115,13 @@ def scenerio_five(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
@@ -163,19 +133,13 @@ def scenerio_six(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
@@ -187,19 +151,13 @@ def scenerio_seven(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
-    
+        reputation = decent_option(reputation)
+
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
@@ -211,19 +169,13 @@ def scenerio_eight(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
-    
+        reputation = decent_option(reputation)
+
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
@@ -233,19 +185,13 @@ def scenerio_nine(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
@@ -255,87 +201,30 @@ def scenerio_ten(reputation, name):
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
     if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
+        reputation = good_option(reputation)
 
     elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = decent_option(reputation)
     
     else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
+        reputation = bad_option(reputation)
 
     return reputation
 
 
 def good_option(reputation):
-    print("Make sure to update reputation dependant on this choice")
-    while option not in ["a", "b", "c"]:
-        option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
-
-    if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
-
-    elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
-    
-    else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
-
+    reputation += 10
+    print("\nGreat choice! you have gained 10 reputation points. \nYour new reputation is: ", reputation, "\n")
     return reputation
 
 def bad_option(reputation):
-    print("Make sure to update reputation dependant on this choice")
-    while option not in ["a", "b", "c"]:
-        option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
-
-    if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
-
-    elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
-    
-    else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
-
+    reputation += 5
+    print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
 
 def decent_option(reputation):
-    print("Make sure to update reputation dependant on this choice")
-    while option not in ["a", "b", "c"]:
-        option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
-
-    if option == "a":
-        reputation = good_option(reputation + 10)
-        print("\nGreat choice! you have gained 10 reputation points."
-        "Your new reputation is: ", reputation, "\n")
-
-    elif option == "b":
-        reputation = decent_option(reputation + 5)
-        print("\nCould have done better! You gained 5 reputation points."
-        "Your new reputation is:", reputation, "\n")
-    
-    else:
-        reputation = bad_option(reputation - 10)
-        print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points."
-        "Your new reputation is:", reputation, "\n")
-
+    reputation -= 10
+    print("\nCould have done better! You gained 5 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
 
 main()
