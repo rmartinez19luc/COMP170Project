@@ -97,6 +97,9 @@ def scenerio_one(reputation, name):
     
     return reputation
 
+'''FUNCTION scenerio_two(reputation, name):
+        follows same format as scenerio_one'''
+
 def scenerio_two(reputation, name):
     print("\n\n\033[1mDAY 1: COLLEGE MISHAP\033[0m")
     print("After your horrible start, you meet up with your friends at a coffee shop to get a drink."
@@ -123,6 +126,24 @@ def scenerio_two(reputation, name):
 
     return reputation
 
+'''FUNCTION scenerio_three(reputation, name): 
+        print heading, DAY 1: BACK AT HOME
+        print premise of scenerio and options to respond to
+        
+        option = input of user in their choice to respond to scenerio (a, b, or c)
+        
+        while option not in ["a", "b", "c"]:
+            option = user input after being told they but an invalid choice
+            
+            if option = a then
+                reputation = to FUNCTION good_option with parameter reputation
+            elif option = c then
+                reputation = to FUNCTION decent_option with parameter reputation
+            else
+                reputation = to FUNCTION bad_option with parameter reputation
+                
+            return variable reputation'''
+
 def scenerio_three(reputation, name):
     print("\n\n\033[1mDAY 1: BACK AT HOME\033[0m")
     print("You return back to home after a long day of school. As you throw your bookbag on the floor and lay down, your younger sibling goes up to you and asks you to play with them."
@@ -147,6 +168,24 @@ def scenerio_three(reputation, name):
         reputation = bad_option(reputation )
 
     return reputation
+
+'''FUNCTION scenerio_four(reputation, name): 
+        print heading, DAY 2: TITLE
+        print premise of scenerio and options to respond to
+        
+        option = input of user in their choice to respond to scenerio (a, b, or c)
+        
+        while option not in ["a", "b", "c"]:
+            option = user input after being told they but an invalid choice
+            
+            if option = a then
+                reputation = to FUNCTION good_option with parameter reputation
+            elif option = b then
+                reputation = to FUNCTION decent_option with parameter reputation
+            else
+                reputation = to FUNCTION bad_option with parameter reputation
+                
+            return variable reputation'''
 
 def scenerio_four(reputation, name):
     print("\n\n\033[1mDAY 2: TITLE\033[0m")
