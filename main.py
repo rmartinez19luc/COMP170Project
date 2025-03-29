@@ -167,6 +167,8 @@ def scenerio_four(reputation, name):
 
     return reputation
 
+'''FUNCTION scenerio_five(reputation, name):
+        follows same format as scenerio_four'''
 def scenerio_five(reputation, name):
     print("\n\n\033[1mDAY 2: TITLE\033[0m")
     print("Premise, premise, premise")
@@ -186,6 +188,8 @@ def scenerio_five(reputation, name):
 
     return reputation
 
+'''FUNCTION scenerio_six(reputation, name):
+        follows same format as scenerio_four'''
 def scenerio_six(reputation, name):
     print("\n\n\033[1mDAY 2: TITLE\033[0m")
     print("Premise, premise, premise")
@@ -205,6 +209,8 @@ def scenerio_six(reputation, name):
 
     return reputation
 
+'''FUNCTION scenerio_seven(reputation, name):
+        follows same format as scenerio_four'''
 def scenerio_seven(reputation, name):
     print("\n\n\033[1mDAY 3: TITLE\033[0m")
     print("Premise, premise, premise")
@@ -224,6 +230,8 @@ def scenerio_seven(reputation, name):
 
     return reputation
 
+'''FUNCTION scenerio_eight(reputation, name):
+        follows same format as scenerio_four'''
 def scenerio_eight(reputation, name):
     print("\n\n\033[1mDAY 3: TITLE\033[0m")
     print("Premise, premise, premise")
@@ -243,6 +251,8 @@ def scenerio_eight(reputation, name):
 
     return reputation
 
+'''FUNCTION scenerio_nine(reputation, name):
+        follows same format as scenerio_four'''
 def scenerio_nine(reputation, name):
     print("\n\n\033[1mDAY 4: TITLE\033[0m")
     print("Premise, premise, premise")
@@ -261,6 +271,8 @@ def scenerio_nine(reputation, name):
 
     return reputation
 
+'''FUNCTION scenerio_ten(reputation, name):
+        follows same format as scenerio_four'''
 def scenerio_ten(reputation, name):
     print("\n\n\033[1mDAY 5: TITLE\033[0m")
     print("Premise, premise, premise")
@@ -279,16 +291,27 @@ def scenerio_ten(reputation, name):
 
     return reputation
 
+'''FUNCTION good_option(reputation):
+        subtract 5 from reputation
+        print Honestly, you could've done better... and reputation variable'''
 
 def good_option(reputation):
     reputation -= 5
     print("\nHonestly, you could've done better but not the worst choice! You lost 5 reputation points. \nYour new reputation is: ", reputation, "\n")
     return reputation
 
+''' FUNCTION bad_option(reputation):
+        subtract 15 from reputation
+        print Uh ohhh... and reputation variable'''
+
 def bad_option(reputation):
     reputation -= 15
     print("\nUh ohhh. Sometimes self reflection is the best option... You lost 15 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
+
+''' FUNCTION decent_option(reputation):
+        subtract 10 from reputation
+        print Well... it is what it is... and reputation variable'''
 
 def decent_option(reputation):
     reputation -= 10
