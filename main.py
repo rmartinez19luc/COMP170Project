@@ -237,18 +237,18 @@ def scenerio_ten(reputation, name):
 
 
 def good_option(reputation):
-    reputation += 10
-    print("\nHonestly, you could've done better but not the worst choice! You gained 10 reputation points. \nYour new reputation is: ", reputation, "\n")
+    reputation -= 5
+    print("\nHonestly, you could've done better but not the worst choice! You lost 5 reputation points. \nYour new reputation is: ", reputation, "\n")
     return reputation
 
 def bad_option(reputation):
-    reputation -= 10
-    print("\nUh ohhh. Sometimes self reflection is the best option... You lost 10 reputation points. \nYour new reputation is:", reputation, "\n")
+    reputation -= 15
+    print("\nUh ohhh. Sometimes self reflection is the best option... You lost 15 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
 
 def decent_option(reputation):
-    reputation += 5
-    print("\nWell... it is what it is, could've done better. You gained 5 reputation points. \nYour new reputation is:", reputation, "\n")
+    reputation -= 10
+    print("\nWell... it is what it is, could've done better. You lost 10 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
 
 main()
