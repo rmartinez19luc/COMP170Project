@@ -105,6 +105,7 @@ def scenerio_three(reputation, name):
     return reputation
 
 def scenerio_four(reputation, name):
+    print("\n\n\033[1mDAY 2: TITLE\033[0m")
     print("Premise, premise, premise")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
@@ -123,6 +124,7 @@ def scenerio_four(reputation, name):
     return reputation
 
 def scenerio_five(reputation, name):
+    print("\n\n\033[1mDAY 2: TITLE\033[0m")
     print("Premise, premise, premise")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
@@ -141,6 +143,7 @@ def scenerio_five(reputation, name):
     return reputation
 
 def scenerio_six(reputation, name):
+    print("\n\n\033[1mDAY 2: TITLE\033[0m")
     print("Premise, premise, premise")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
@@ -159,6 +162,7 @@ def scenerio_six(reputation, name):
     return reputation
 
 def scenerio_seven(reputation, name):
+    print("\n\n\033[1mDAY 3: TITLE\033[0m")
     print("Premise, premise, premise")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
@@ -177,6 +181,7 @@ def scenerio_seven(reputation, name):
     return reputation
 
 def scenerio_eight(reputation, name):
+    print("\n\n\033[1mDAY 3: TITLE\033[0m")
     print("Premise, premise, premise")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
@@ -195,6 +200,7 @@ def scenerio_eight(reputation, name):
     return reputation
 
 def scenerio_nine(reputation, name):
+    print("\n\n\033[1mDAY 4: TITLE\033[0m")
     print("Premise, premise, premise")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
@@ -212,6 +218,7 @@ def scenerio_nine(reputation, name):
     return reputation
 
 def scenerio_ten(reputation, name):
+    print("\n\n\033[1mDAY 5: TITLE\033[0m")
     print("Premise, premise, premise")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
