@@ -9,4 +9,4 @@ Creators:
 Renee Martinez,
 Amina Sodnomtseren,
 Annmarie Easter, 
-Madelin Mateo,
+Madelin Mateo

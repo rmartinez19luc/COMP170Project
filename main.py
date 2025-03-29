@@ -42,10 +42,10 @@ def scenerio_one(reputation, name):
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
-    if option == "a":
+    if option == "b":
         reputation = good_option(reputation)
 
-    elif option == "b":
+    elif option == "c":
         reputation = decent_option(reputation)
     
     else:
@@ -54,16 +54,24 @@ def scenerio_one(reputation, name):
     return reputation
 
 def scenerio_two(reputation, name):
-    print("Blahblahblah")
+    print("\n\n\033[1mDAY 1: COLLEGE MISHAP\033[0m")
+    print("After your horrible start, you meet up with your friends at a coffee shop to get a drink."
+    "\n You ordered your Venti Iced Pumpkin Spiced Chai Frappachino with 5 shots of expresso, 5 pumps of vanilla, 3 pumps of hazelnut, "
+    "2 pumps of carmel syrup, extra caramel, and extra whipcream. "
+    "\nWhen you get your drink, you take a sip and realize it's all wrong!!\n"
+    "\nWhat do you do " + str(name) +"?\n"
+    "a) Throw drink at barista\n"
+    "b) Tell them 'REMAKE IT IMMEDIATELY!'\n"
+    "c) Demand a refund and ask to speak to their manager")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
-    if option == "a":
+    if option == "b":
         reputation = good_option(reputation)
 
-    elif option == "b":
+    elif option == "c":
         reputation = decent_option(reputation)
     
     else:
@@ -72,7 +80,14 @@ def scenerio_two(reputation, name):
     return reputation
 
 def scenerio_three(reputation, name):
-    print("Premise, premise, premise")
+    print("\n\n\033[1mDAY 1: BACK AT HOME\033[0m")
+    print("You return back to home after a long day of school. As you throw your bookbag on the floor and lay down, your younger sibling goes up to you and asks you to play with them."
+    "\n You say no and that you're tired so they start to cry saying how you never hang out with them. You feel bad and try to say yes but something stops you."
+    "\n The word, yes, won't come out and you realize you're left with only 3 options."
+    "\n You HAVE to say one " + str(name) + "!\n"
+    "\na) You're so annoying!"
+    "\nb) I hate you! Get out of my room"
+    "\nc) Stop your crying already")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -81,7 +96,7 @@ def scenerio_three(reputation, name):
     if option == "a":
         reputation = good_option(reputation)
 
-    elif option == "b":
+    elif option == "c":
         reputation = decent_option(reputation)
     
     else:
@@ -216,7 +231,7 @@ def scenerio_ten(reputation, name):
 
 def good_option(reputation):
     reputation += 10
-    print("\nGreat choice! you have gained 10 reputation points. \nYour new reputation is: ", reputation, "\n")
+    print("\nHonestly, you could've done better but not the worst choice! You gained 10 reputation points. \nYour new reputation is: ", reputation, "\n")
     return reputation
 
 def bad_option(reputation):
@@ -226,7 +241,7 @@ def bad_option(reputation):
 
 def decent_option(reputation):
     reputation += 5
-    print("\nCould have done better! You gained 5 reputation points. \nYour new reputation is:", reputation, "\n")
+    print("\nWell... it is what it is, could've done better. You gained 5 reputation points. \nYour new reputation is:", reputation, "\n")
     return reputation
 
 main()
