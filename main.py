@@ -1,3 +1,29 @@
+'''FUNCTION main(): 
+        name = input of the user who is asked what they would like to be called
+        print the game premise for the user
+        
+        sets reputation variable to be 100 at the start
+        
+        sets reputation equal to FUNCTION scenerio_one with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_two with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_three with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_four with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_five with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_six with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_seven with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_eight with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_nine with parameters reputation and name
+        sets reputation equal to FUNCTION scenerio_ten with parameters reputation and name
+        
+        print final reputation score using variable reputation
+        
+        If reputation >= 55 then
+            print good ending
+        Elif reputation >= 30 then
+            print decent ending
+        Else
+            print bad ending
+          '''
 def main():
     name = input("Welcome player to Challenging Days! What do you wish to be called? ")
     print("\nYou will traverse your days, interacting with different people in your life. However, you seem to have woken up on the"
@@ -23,6 +49,24 @@ def main():
         print("\nDecent reputation: Not bad, pat yourself on the back and say you made it!")
     else: 
         print("\nBad reputation: Ouch, better luck next time my friend.")
+
+'''FUNCTION scenerio_one(reputation, name): 
+        print heading, DAY 1: MORNING DISASTER
+        print premise of scenerio and options to respond to
+        
+        option = input of user in their choice to respond to scenerio (a, b, or c)
+        
+        while option not in ["a", "b", "c"]:
+            option = user input after being told they but an invalid choice
+            
+            if option = b then
+                reputation = to FUNCTION good_option with parameter reputation
+            elif option = c then
+                reputation = to FUNCTION decent_option with parameter reputation
+            else
+                reputation = to FUNCTION bad_option with parameter reputation
+                
+            return variable reputation'''
 
 def scenerio_one(reputation, name):
     print("\n\n\033[1mDAY 1: MORNING DISASTER\033[0m")
