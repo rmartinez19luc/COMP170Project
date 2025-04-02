@@ -244,11 +244,11 @@ def scenerio_five(reputation, name):
 def scenerio_six(reputation, name):
     print("\n\n\033[1mDAY 2: FRIEND FIGHT\033[0m")
     print("You wake up one morning and find out your 2 friends Kali and Leyla have been fighting in the group chat."
-    "\nKali is your best friend and Leyla is not so close with you"
-    "\nKnowing Leyla was right in the argument, you still don't want to upset your best friend Kali"
+    "\nKali is your best friend and Leyla is not so close with you."
+    "\nKnowing Leyla was right in the argument, you still don't want to upset your best friend Kali."
     "\nWhat would you say to Leyla " + str(name) +"?\n"
-    "a) I don't know, leave me out of it"
-    "b) I dont care who is right, Kali is the goat"
+    "a) I don't know, leave me out of it\n"
+    "b) I dont care who is right, Kali is the goat\n"
     "c) It's not that deep, you're such a drama queen, just get over it")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
