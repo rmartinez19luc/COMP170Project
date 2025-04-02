@@ -44,7 +44,7 @@ def main():
 
     print("\nYour final reputation score is: ", reputation)
     if reputation >= 55:
-        print("\n Good reputation: You successfully earned yourself a good reputation!")
+        print("\nGood reputation: You successfully earned yourself a good reputation!")
     elif 30 <= reputation < 55:
         print("\nDecent reputation: Not bad, pat yourself on the back and say you made it!")
     else: 
@@ -188,8 +188,14 @@ def scenerio_three(reputation, name):
             return variable reputation'''
 
 def scenerio_four(reputation, name):
-    print("\n\n\033[1mDAY 2: TITLE\033[0m")
-    print("Premise, premise, premise")
+    print("\n\n\033[1mDAY 2: LOUD KIDS\033[0m")
+    print("It's spring break! You hop on a plane with your friends to Miami."
+    "\nUnfortunately, you are surrounded by misbehaving toddlers who are yelling and crying loud on the plane."
+    "\nTheir parents are not bothered by the noise but you can't take it anymore!"
+    "\nWhat would you do to make the kids stop from being loud " + str(name) +"?\n"
+    "a) Tell the parents to discipline their kids.\n"
+    "b) Complain to the flight attendant and demand for an action.\n"
+    "c) Yell at the kids and spank to stop them.") 
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -209,8 +215,14 @@ def scenerio_four(reputation, name):
 '''FUNCTION scenerio_five(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_five(reputation, name):
-    print("\n\n\033[1mDAY 2: TITLE\033[0m")
-    print("Premise, premise, premise")
+    print("\n\n\033[1mDAY 2: PROJECT TEAM\033[0m")
+    print("It's April 21st and your COMT 170 team is excited to submit the project you all have been working hard for."
+    "\n Just before the deadline, one of your teammate accidentaly deletes all the code and it's not possible to recover."
+    "\n There is not enough time to write the code all over again since you only have 1 hour left to submit everything."
+    "\n What would you do " + str(name) +"?\n"
+    "a) Tell them this is why I didn't want you to be on my team.\n"
+    "b) Yell at them 'YOU ARE A LOSER'\n"
+    "c) Report the student to the professor so he/she can get 0 on the project.")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -230,8 +242,14 @@ def scenerio_five(reputation, name):
 '''FUNCTION scenerio_six(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_six(reputation, name):
-    print("\n\n\033[1mDAY 2: TITLE\033[0m")
-    print("Premise, premise, premise")
+    print("\n\n\033[1mDAY 2: FRIEND FIGHT\033[0m")
+    print("You wake up one morning and find out your 2 friends Kali and Leyla have been fighting in the group chat."
+    "\nKali is your best friend and Leyla is not so close with you"
+    "\nKnowing Leyla was right in the argument, you still don't want to upset your best friend Kali"
+    "\nWhat would you say to Leyla " + str(name) +"?\n"
+    "a) I don't know, leave me out of it"
+    "b) I dont care who is right, Kali is the goat"
+    "c) It's not that deep, you're such a drama queen, just get over it")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
