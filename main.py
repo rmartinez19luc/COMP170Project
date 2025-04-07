@@ -297,16 +297,22 @@ def scenerio_seven(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_eight(reputation, name):
     print("\n\n\033[1mDAY 3: TITLE\033[0m")
-    print("Premise, premise, premise")
+    print("Somehow you make it to first period on time")
+    "\n You sit in your chair and start your test, you realize you studied for the wrong one!"
+    "\n This test is worth 30% of your grade you need it to pass!"
+    "\n what do you do? " + str(name) +"?\n"
+    "a) look off someone elses test \n"
+    "b) answer A for every question and hope its right \n"
+    "c) use chat gpt "
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
-    if option == "a":
+    if option == "b":
         reputation = good_option(reputation)
 
-    elif option == "b":
+    elif option == "c" :
         reputation = decent_option(reputation)
 
     else:
@@ -318,15 +324,21 @@ def scenerio_eight(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_nine(reputation, name):
     print("\n\n\033[1mDAY 4: TITLE\033[0m")
-    print("Premise, premise, premise")
+    print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)")
+    "\n You have been looking foward to this snack all day "
+    "\n you turn around and see your sister eating the last bite "
+    "\n What do you do? " + str(name) +"?\n"
+    "a) slap your sister \n"
+    "b) start screaming at her and then break the plate over her head \n"
+    "c) starve to death "
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
-    if option == "a":
+    if option == "c" :
         reputation = good_option(reputation)
 
-    elif option == "b":
+    elif option == "a":
         reputation = decent_option(reputation)
     
     else:
@@ -338,7 +350,15 @@ def scenerio_nine(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_ten(reputation, name):
     print("\n\n\033[1mDAY 5: TITLE\033[0m")
-    print("Premise, premise, premise")
+    print("finally it is friday, this terrible week is almost over!")
+    "\n As you are relaxing upstairs you get a call from your friends to come hang out"
+    "\n This is just what you need after this week from hell! "
+    "\n You go down to ask your mom if it is ok for you to hang out with them"
+    "\n Your mom laughs at you and says there is no way, and you have to wash the floors with a toothbrush"
+    "\n what do you do? " + str(name) +"?\n"
+    "a) sneak out anyways and suffer the concequences \n"
+    "b) yell at her and leave anyway \n"
+    "c) use your moms toothbrush to clean the floors"
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
