@@ -270,16 +270,22 @@ def scenerio_six(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_seven(reputation, name):
     print("\n\n\033[1mDAY 3: TITLE\033[0m")
-    print("Premise, premise, premise")
+    print("after your alarm not going off you realize you have 5 minutes to get to school")
+    "\n you race down to your car only to get inside and realize that it wont start!"
+    "\n you have a test first period, you have to get there in time!"
+    "\n what do you do? " + str(name) +"?\n"
+    "a) steal your moms car \n"
+    "b) walk to school in the pouring rain \n"
+    "c) beg your ex boyfriend  for a ride" 
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
 
-    if option == "a":
+    if option == "b":
         reputation = good_option(reputation)
 
-    elif option == "b":
+    elif option == "c":
         reputation = decent_option(reputation)
 
     else:
