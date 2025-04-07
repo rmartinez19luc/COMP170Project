@@ -190,9 +190,9 @@ def scenerio_three(reputation, name):
 def scenerio_four(reputation, name):
     print("\n\n\033[1mDAY 2: LOUD KIDS\033[0m")
     print("It's spring break! You hop on a plane with your friends to Miami."
-    "\nUnfortunately, you are surrounded by misbehaving toddlers who are yelling and crying loud on the plane."
-    "\nTheir parents are not bothered by the noise but you can't take it anymore!"
-    "\nWhat would you do to make the kids stop from being loud " + str(name) +"?\n"
+    "\n Unfortunately, you are surrounded by misbehaving toddlers who are yelling and crying loud on the plane."
+    "\n Their parents are not bothered by the noise but you can't take it anymore!"
+    "\n What would you do to make the kids stop from being loud " + str(name) +"?\n"
     "a) Tell the parents to discipline their kids.\n"
     "b) Complain to the flight attendant and demand for an action.\n"
     "c) Yell at the kids and spank to stop them.") 
@@ -244,9 +244,9 @@ def scenerio_five(reputation, name):
 def scenerio_six(reputation, name):
     print("\n\n\033[1mDAY 2: FRIEND FIGHT\033[0m")
     print("You wake up one morning and find out your 2 friends Kali and Leyla have been fighting in the group chat."
-    "\nKali is your best friend and Leyla is not so close with you."
-    "\nKnowing Leyla was right in the argument, you still don't want to upset your best friend Kali."
-    "\nWhat would you say to Leyla " + str(name) +"?\n"
+    "\n Kali is your best friend and Leyla is not so close with you."
+    "\n Knowing Leyla was right in the argument, you still don't want to upset your best friend Kali."
+    "\n What would you say to Leyla " + str(name) +"?\n"
     "a) I don't know, leave me out of it\n"
     "b) I dont care who is right, Kali is the goat\n"
     "c) It's not that deep, you're such a drama queen, just get over it")
