@@ -103,7 +103,7 @@ def scenerio_one(reputation, name):
 def scenerio_two(reputation, name):
     print("\n\n\033[1mDAY 1: COLLEGE MISHAP\033[0m")
     print("After your horrible start, you meet up with your friends at a coffee shop to get a drink."
-    "\n You ordered your Venti Iced Pumpkin Spiced Chai Frappachino with 5 shots of expresso, 5 pumps of vanilla, 3 pumps of hazelnut, "
+    "\nYou ordered your Venti Iced Pumpkin Spiced Chai Frappachino with 5 shots of expresso, 5 pumps of vanilla, 3 pumps of hazelnut, "
     "2 pumps of carmel syrup, extra caramel, and extra whipcream. "
     "\nWhen you get your drink, you take a sip and realize it's all wrong!!\n"
     "\nWhat do you do " + str(name) +"?\n"
@@ -147,9 +147,9 @@ def scenerio_two(reputation, name):
 def scenerio_three(reputation, name):
     print("\n\n\033[1mDAY 1: BACK AT HOME\033[0m")
     print("You return back to home after a long day of school. As you throw your bookbag on the floor and lay down, your younger sibling goes up to you and asks you to play with them."
-    "\n You say no and that you're tired so they start to cry saying how you never hang out with them. You feel bad and try to say yes but something stops you."
-    "\n The word, yes, won't come out and you realize you're left with only 3 options."
-    "\n You HAVE to say one " + str(name) + "!\n"
+    "\nYou say no and that you're tired so they start to cry saying how you never hang out with them. You feel bad and try to say yes but something stops you."
+    "\nThe word, yes, won't come out and you realize you're left with only 3 options."
+    "\nYou HAVE to say one " + str(name) + "!\n"
     "\na) You're so annoying!"
     "\nb) I hate you! Get out of my room"
     "\nc) Stop your crying already")
@@ -190,9 +190,9 @@ def scenerio_three(reputation, name):
 def scenerio_four(reputation, name):
     print("\n\n\033[1mDAY 2: LOUD KIDS\033[0m")
     print("It's spring break! You hop on a plane with your friends to Miami."
-    "\n Unfortunately, you are surrounded by misbehaving toddlers who are yelling and crying loud on the plane."
-    "\n Their parents are not bothered by the noise but you can't take it anymore!"
-    "\n What would you do to make the kids stop from being loud " + str(name) +"?\n"
+    "\nUnfortunately, you are surrounded by misbehaving toddlers who are yelling and crying loud on the plane."
+    "\nTheir parents are not bothered by the noise but you can't take it anymore!"
+    "\nWhat would you do to make the kids stop from being loud " + str(name) +"?\n"
     "a) Tell the parents to discipline their kids.\n"
     "b) Complain to the flight attendant and demand for an action.\n"
     "c) Yell at the kids and spank to stop them.") 
@@ -217,9 +217,9 @@ def scenerio_four(reputation, name):
 def scenerio_five(reputation, name):
     print("\n\n\033[1mDAY 2: PROJECT TEAM\033[0m")
     print("It's April 21st and your COMT 170 team is excited to submit the project you all have been working hard for."
-    "\n Just before the deadline, one of your teammate accidentaly deletes all the code and it's not possible to recover."
-    "\n There is not enough time to write the code all over again since you only have 1 hour left to submit everything."
-    "\n What would you do " + str(name) +"?\n"
+    "\nJust before the deadline, one of your teammate accidentaly deletes all the code and it's not possible to recover."
+    "\nThere is not enough time to write the code all over again since you only have 1 hour left to submit everything."
+    "\nWhat would you do " + str(name) +"?\n"
     "a) Tell them this is why I didn't want you to be on my team.\n"
     "b) Yell at them 'YOU ARE A LOSER'\n"
     "c) Report the student to the professor so he/she can get 0 on the project.")
@@ -244,9 +244,9 @@ def scenerio_five(reputation, name):
 def scenerio_six(reputation, name):
     print("\n\n\033[1mDAY 2: FRIEND FIGHT\033[0m")
     print("You wake up one morning and find out your 2 friends Kali and Leyla have been fighting in the group chat."
-    "\n Kali is your best friend and Leyla is not so close with you."
-    "\n Knowing Leyla was right in the argument, you still don't want to upset your best friend Kali."
-    "\n What would you say to Leyla " + str(name) +"?\n"
+    "\nKali is your best friend and Leyla is not so close with you."
+    "\nKnowing Leyla was right in the argument, you still don't want to upset your best friend Kali."
+    "\nWhat would you say to Leyla " + str(name) +"?\n"
     "a) I don't know, leave me out of it\n"
     "b) I dont care who is right, Kali is the goat\n"
     "c) It's not that deep, you're such a drama queen, just get over it")
@@ -270,13 +270,13 @@ def scenerio_six(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_seven(reputation, name):
     print("\n\n\033[1mDAY 3: TITLE\033[0m")
-    print("after your alarm not going off you realize you have 5 minutes to get to school")
-    "\n you race down to your car only to get inside and realize that it wont start!"
-    "\n you have a test first period, you have to get there in time!"
-    "\n what do you do? " + str(name) +"?\n"
+    print("After your alarm not going off you realize you have 5 minutes to get to school"
+    "\nyou race down to your car only to get inside and realize that it wont start!"
+    "\nyou have a test first period, you have to get there in time!"
+    "\nwhat do you do? " + str(name) +"?\n"
     "a) steal your moms car \n"
     "b) walk to school in the pouring rain \n"
-    "c) beg your ex boyfriend  for a ride" 
+    "c) beg your ex boyfriend  for a ride") 
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -297,13 +297,13 @@ def scenerio_seven(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_eight(reputation, name):
     print("\n\n\033[1mDAY 3: TITLE\033[0m")
-    print("Somehow you make it to first period on time")
-    "\n You sit in your chair and start your test, you realize you studied for the wrong one!"
-    "\n This test is worth 30% of your grade you need it to pass!"
-    "\n what do you do? " + str(name) +"?\n"
+    print("Somehow you make it to first period on time"
+    "\nYou sit in your chair and start your test, you realize you studied for the wrong one!"
+    "\nThis test is worth 30% of your grade you need it to pass!"
+    "\nwhat do you do? " + str(name) +"?\n"
     "a) look off someone elses test \n"
     "b) answer A for every question and hope its right \n"
-    "c) use chat gpt "
+    "c) use chat gpt ")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -324,13 +324,13 @@ def scenerio_eight(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_nine(reputation, name):
     print("\n\n\033[1mDAY 4: TITLE\033[0m")
-    print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)")
-    "\n You have been looking foward to this snack all day "
-    "\n you turn around and see your sister eating the last bite "
-    "\n What do you do? " + str(name) +"?\n"
+    print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)"
+    "\nYou have been looking foward to this snack all day "
+    "\nyou turn around and see your sister eating the last bite "
+    "\nWhat do you do? " + str(name) +"?\n"
     "a) slap your sister \n"
     "b) start screaming at her and then break the plate over her head \n"
-    "c) starve to death "
+    "c) starve to death ")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
@@ -350,15 +350,15 @@ def scenerio_nine(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_ten(reputation, name):
     print("\n\n\033[1mDAY 5: TITLE\033[0m")
-    print("finally it is friday, this terrible week is almost over!")
-    "\n As you are relaxing upstairs you get a call from your friends to come hang out"
-    "\n This is just what you need after this week from hell! "
-    "\n You go down to ask your mom if it is ok for you to hang out with them"
-    "\n Your mom laughs at you and says there is no way, and you have to wash the floors with a toothbrush"
-    "\n what do you do? " + str(name) +"?\n"
+    print("finally it is friday, this terrible week is almost over!"
+    "\nAs you are relaxing upstairs you get a call from your friends to come hang out"
+    "\nThis is just what you need after this week from hell! "
+    "\nYou go down to ask your mom if it is ok for you to hang out with them"
+    "\nYour mom laughs at you and says there is no way, and you have to wash the floors with a toothbrush"
+    "\nwhat do you do? " + str(name) +"?\n"
     "a) sneak out anyways and suffer the concequences \n"
     "b) yell at her and leave anyway \n"
-    "c) use your moms toothbrush to clean the floors"
+    "c) use your moms toothbrush to clean the floors")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
