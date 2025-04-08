@@ -269,7 +269,7 @@ def scenerio_six(reputation, name):
 '''FUNCTION scenerio_seven(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_seven(reputation, name):
-    print("\n\n\033[1mDAY 3: TITLE\033[0m")
+    print("\n\n\033[1mDAY 3: RAINY DAY\033[0m")
     print("After your alarm not going off you realize you have 5 minutes to get to school"
     "\nYou race down to your car only to get inside and realize that it wont start!"
     "\nYou have a test first period, you have to get there in time!"
@@ -296,7 +296,7 @@ def scenerio_seven(reputation, name):
 '''FUNCTION scenerio_eight(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_eight(reputation, name):
-    print("\n\n\033[1mDAY 3: TITLE\033[0m")
+    print("\n\n\033[1mDAY 3: TESTING DISASTER\033[0m")
     print("Somehow you make it to first period on time"
     "\nYou sit in your chair and start your test, you realize you studied for the wrong one!"
     "\nThis test is worth 30% of your grade you need it to pass!"
@@ -323,14 +323,14 @@ def scenerio_eight(reputation, name):
 '''FUNCTION scenerio_nine(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_nine(reputation, name):
-    print("\n\n\033[1mDAY 4: TITLE\033[0m")
+    print("\n\n\033[1mDAY 4: STOLEN SNACK\033[0m")
     print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)."
     "\nYou have been looking foward to this snack all day. "
     "\nYou turn around and see your sister eating the last bite. "
     "\nWhat do you do? " + str(name) +"?\n"
-    "a) slap your sister \n"
-    "b) start screaming at her and then break the plate over her head \n"
-    "c) starve to death ")
+    "a) Slap your sister \n"
+    "b) Start screaming at her and then break the plate over her head \n"
+    "c) Starve to death ")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
@@ -349,8 +349,8 @@ def scenerio_nine(reputation, name):
 '''FUNCTION scenerio_ten(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_ten(reputation, name):
-    print("\n\n\033[1mDAY 5: TITLE\033[0m")
-    print("finally it is friday, this terrible week is almost over!"
+    print("\n\n\033[1mDAY 5: MOM'S REVENGE\033[0m")
+    print("Finally it is friday, this terrible week is almost over!"
     "\nAs you are relaxing upstairs you get a call from your friends to come hang out."
     "\nThis is just what you need after this week from hell! "
     "\nYou go down to ask your mom if it is ok for you to hang out with them."
