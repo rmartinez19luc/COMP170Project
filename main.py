@@ -149,7 +149,7 @@ def scenerio_three(reputation, name):
     print("You return back to home after a long day of school. As you throw your bookbag on the floor and lay down, your younger sibling goes up to you and asks you to play with them."
     "\nYou say no and that you're tired so they start to cry saying how you never hang out with them. You feel bad and try to say yes but something stops you."
     "\nThe word, yes, won't come out and you realize you're left with only 3 options."
-    "\nYou HAVE to say one " + str(name) + "!\n"
+    "\n\nYou HAVE to say one " + str(name) + "!"
     "\na) You're so annoying!"
     "\nb) I hate you! Get out of my room"
     "\nc) Stop your crying already")
@@ -192,7 +192,7 @@ def scenerio_four(reputation, name):
     print("It's spring break! You hop on a plane with your friends to Miami."
     "\nUnfortunately, you are surrounded by misbehaving toddlers who are yelling and crying loud on the plane."
     "\nTheir parents are not bothered by the noise but you can't take it anymore!"
-    "\nWhat would you do to make the kids stop from being loud " + str(name) +"?\n"
+    "\n\nWhat would you do to make the kids stop from being loud " + str(name) +"?\n"
     "a) Tell the parents to discipline their kids.\n"
     "b) Complain to the flight attendant and demand for an action.\n"
     "c) Yell at the kids and spank to stop them.") 
@@ -219,7 +219,7 @@ def scenerio_five(reputation, name):
     print("It's April 21st and your COMT 170 team is excited to submit the project you all have been working hard for."
     "\nJust before the deadline, one of your teammate accidentaly deletes all the code and it's not possible to recover."
     "\nThere is not enough time to write the code all over again since you only have 1 hour left to submit everything."
-    "\nWhat would you do " + str(name) +"?\n"
+    "\n\nWhat would you do " + str(name) +"?\n"
     "a) Tell them this is why I didn't want you to be on my team.\n"
     "b) Yell at them 'YOU ARE A LOSER'\n"
     "c) Report the student to the professor so he/she can get 0 on the project.")
@@ -246,7 +246,7 @@ def scenerio_six(reputation, name):
     print("You wake up one morning and find out your 2 friends Kali and Leyla have been fighting in the group chat."
     "\nKali is your best friend and Leyla is not so close with you."
     "\nKnowing Leyla was right in the argument, you still don't want to upset your best friend Kali."
-    "\nWhat would you say to Leyla " + str(name) +"?\n"
+    "\n\nWhat would you say to Leyla " + str(name) +"?\n"
     "a) I don't know, leave me out of it\n"
     "b) I dont care who is right, Kali is the goat\n"
     "c) It's not that deep, you're such a drama queen, just get over it")
@@ -273,10 +273,10 @@ def scenerio_seven(reputation, name):
     print("After your alarm not going off you realize you have 5 minutes to get to school"
     "\nYou race down to your car only to get inside and realize that it wont start!"
     "\nYou have a test first period, you have to get there in time!"
-    "\nWhat do you do " + str(name) +"?\n"
+    "\n\nWhat do you do " + str(name) +"?\n"
     "a) Steal your moms car \n"
     "b) Walk to school in the pouring rain \n"
-    "c) Beg your ex boyfriend  for a ride") 
+    "c) Beg your ex boyfriend for a ride") 
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -300,7 +300,7 @@ def scenerio_eight(reputation, name):
     print("Somehow you make it to first period on time"
     "\nYou sit in your chair and start your test, you realize you studied for the wrong one!"
     "\nThis test is worth 30% of your grade you need it to pass!"
-    "\nWhat do you do " + str(name) +"?\n"
+    "\n\nWhat do you do " + str(name) +"?\n"
     "a) Look off someone elses test \n"
     "b) Answer A for every question and hope its right \n"
     "c) Use chat gpt ")
@@ -327,7 +327,7 @@ def scenerio_nine(reputation, name):
     print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)."
     "\nYou have been looking foward to this snack all day. "
     "\nYou turn around and see your sister eating the last bite. "
-    "\nWhat do you do " + str(name) +"?\n"
+    "\n\nWhat do you do " + str(name) +"?\n"
     "a) Slap your sister \n"
     "b) Start screaming at her and then break the plate over her head \n"
     "c) Starve to death ")
@@ -355,7 +355,7 @@ def scenerio_ten(reputation, name):
     "\nThis is just what you need after this week from hell! "
     "\nYou go down to ask your mom if it is ok for you to hang out with them."
     "\nYour mom laughs at you and says there is no way, and you have to wash the floors with a toothbrush."
-    "\nwhat do you do " + str(name) +"?\n"
+    "\n\nWhat do you do " + str(name) +"?\n"
     "a) Sneak out anyways and suffer the concequences \n"
     "b) Yell at her and leave anyway \n"
     "c) Use your moms toothbrush to clean the floors")
