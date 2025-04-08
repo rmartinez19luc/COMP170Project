@@ -17,7 +17,7 @@
         
         print final reputation score using variable reputation
         
-        If reputation >= 55 then
+        If reputation >= 50 then
             print good ending
         Elif reputation >= 30 then
             print decent ending
@@ -43,7 +43,7 @@ def main():
     reputation = scenerio_ten(reputation, name)
 
     print("\nYour final reputation score is: ", reputation)
-    if reputation >= 55:
+    if reputation >= 50:
         print("\nGood reputation: You successfully earned yourself a good reputation!")
     elif 30 <= reputation < 55:
         print("\nDecent reputation: Not bad, pat yourself on the back and say you made it!")
@@ -71,7 +71,7 @@ def main():
 def scenerio_one(reputation, name):
     print("\n\n\033[1mDAY 1: MORNING DISASTER\033[0m")
     print("\nYou wake up and tap your phone to check the time. Your phone is dead."
-    " You get up to check the time on your laptop and realize you're super late!"
+    " You get up to check the time on your laptop and realize you're super late!\n"
     " On the way out, you tell your mom that your charger must be broken because your "
     "phone didn't charge.\n"
     "Your mom admits she unplugged your phone at night because she needed a charger "
@@ -104,7 +104,7 @@ def scenerio_two(reputation, name):
     print("\n\n\033[1mDAY 1: COLLEGE MISHAP\033[0m")
     print("After your horrible start, you meet up with your friends at a coffee shop to get a drink."
     "\nYou ordered your Venti Iced Pumpkin Spiced Chai Frappachino with 5 shots of expresso, 5 pumps of vanilla, 3 pumps of hazelnut, "
-    "2 pumps of carmel syrup, extra caramel, and extra whipcream. "
+    "2 pumps of carmel syrup, extra caramel, and extra whipcream."
     "\nWhen you get your drink, you take a sip and realize it's all wrong!!\n"
     "\nWhat do you do " + str(name) +"?\n"
     "a) Throw drink at barista\n"
@@ -271,12 +271,12 @@ def scenerio_six(reputation, name):
 def scenerio_seven(reputation, name):
     print("\n\n\033[1mDAY 3: TITLE\033[0m")
     print("After your alarm not going off you realize you have 5 minutes to get to school"
-    "\nyou race down to your car only to get inside and realize that it wont start!"
-    "\nyou have a test first period, you have to get there in time!"
-    "\nwhat do you do? " + str(name) +"?\n"
-    "a) steal your moms car \n"
-    "b) walk to school in the pouring rain \n"
-    "c) beg your ex boyfriend  for a ride") 
+    "\nYou race down to your car only to get inside and realize that it wont start!"
+    "\nYou have a test first period, you have to get there in time!"
+    "\nWhat do you do? " + str(name) +"?\n"
+    "a) Steal your moms car \n"
+    "b) Walk to school in the pouring rain \n"
+    "c) Beg your ex boyfriend  for a ride") 
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -300,10 +300,10 @@ def scenerio_eight(reputation, name):
     print("Somehow you make it to first period on time"
     "\nYou sit in your chair and start your test, you realize you studied for the wrong one!"
     "\nThis test is worth 30% of your grade you need it to pass!"
-    "\nwhat do you do? " + str(name) +"?\n"
-    "a) look off someone elses test \n"
-    "b) answer A for every question and hope its right \n"
-    "c) use chat gpt ")
+    "\nWhat do you do? " + str(name) +"?\n"
+    "a) Look off someone elses test \n"
+    "b) Answer A for every question and hope its right \n"
+    "c) Use chat gpt ")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
 
     while option not in ["a", "b", "c"]:
@@ -324,9 +324,9 @@ def scenerio_eight(reputation, name):
         follows same format as scenerio_four'''
 def scenerio_nine(reputation, name):
     print("\n\n\033[1mDAY 4: TITLE\033[0m")
-    print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)"
-    "\nYou have been looking foward to this snack all day "
-    "\nyou turn around and see your sister eating the last bite "
+    print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)."
+    "\nYou have been looking foward to this snack all day. "
+    "\nYou turn around and see your sister eating the last bite. "
     "\nWhat do you do? " + str(name) +"?\n"
     "a) slap your sister \n"
     "b) start screaming at her and then break the plate over her head \n"
@@ -351,14 +351,14 @@ def scenerio_nine(reputation, name):
 def scenerio_ten(reputation, name):
     print("\n\n\033[1mDAY 5: TITLE\033[0m")
     print("finally it is friday, this terrible week is almost over!"
-    "\nAs you are relaxing upstairs you get a call from your friends to come hang out"
+    "\nAs you are relaxing upstairs you get a call from your friends to come hang out."
     "\nThis is just what you need after this week from hell! "
-    "\nYou go down to ask your mom if it is ok for you to hang out with them"
-    "\nYour mom laughs at you and says there is no way, and you have to wash the floors with a toothbrush"
+    "\nYou go down to ask your mom if it is ok for you to hang out with them."
+    "\nYour mom laughs at you and says there is no way, and you have to wash the floors with a toothbrush."
     "\nwhat do you do? " + str(name) +"?\n"
-    "a) sneak out anyways and suffer the concequences \n"
-    "b) yell at her and leave anyway \n"
-    "c) use your moms toothbrush to clean the floors")
+    "a) Sneak out anyways and suffer the concequences \n"
+    "b) Yell at her and leave anyway \n"
+    "c) Use your moms toothbrush to clean the floors")
     option = input("\nChoose an option by writing a, b, or c: ").strip().lower()
     while option not in ["a", "b", "c"]:
         option = input("\nInvalid choice. Choose between options a, b, or c: ").strip().lower()
