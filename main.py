@@ -71,8 +71,8 @@ def main():
 def scenerio_one(reputation, name):
     print("\n\n\033[1mDAY 1: MORNING DISASTER\033[0m")
     print("\nYou wake up and tap your phone to check the time. Your phone is dead."
-    " You get up to check the time on your laptop and realize you're super late!\n"
-    " On the way out, you tell your mom that your charger must be broken because your "
+    "You get up to check the time on your laptop and realize you're super late!\n"
+    "On the way out, you tell your mom that your charger must be broken because your "
     "phone didn't charge.\n"
     "Your mom admits she unplugged your phone at night because she needed a charger "
     "and forgot to plug your phone back in.\n"
@@ -273,7 +273,7 @@ def scenerio_seven(reputation, name):
     print("After your alarm not going off you realize you have 5 minutes to get to school"
     "\nYou race down to your car only to get inside and realize that it wont start!"
     "\nYou have a test first period, you have to get there in time!"
-    "\nWhat do you do? " + str(name) +"?\n"
+    "\nWhat do you do " + str(name) +"?\n"
     "a) Steal your moms car \n"
     "b) Walk to school in the pouring rain \n"
     "c) Beg your ex boyfriend  for a ride") 
@@ -300,7 +300,7 @@ def scenerio_eight(reputation, name):
     print("Somehow you make it to first period on time"
     "\nYou sit in your chair and start your test, you realize you studied for the wrong one!"
     "\nThis test is worth 30% of your grade you need it to pass!"
-    "\nWhat do you do? " + str(name) +"?\n"
+    "\nWhat do you do " + str(name) +"?\n"
     "a) Look off someone elses test \n"
     "b) Answer A for every question and hope its right \n"
     "c) Use chat gpt ")
@@ -327,7 +327,7 @@ def scenerio_nine(reputation, name):
     print("After school you get home and open the fridge to eat your favorite snack (carrots and hummus)."
     "\nYou have been looking foward to this snack all day. "
     "\nYou turn around and see your sister eating the last bite. "
-    "\nWhat do you do? " + str(name) +"?\n"
+    "\nWhat do you do " + str(name) +"?\n"
     "a) Slap your sister \n"
     "b) Start screaming at her and then break the plate over her head \n"
     "c) Starve to death ")
@@ -355,7 +355,7 @@ def scenerio_ten(reputation, name):
     "\nThis is just what you need after this week from hell! "
     "\nYou go down to ask your mom if it is ok for you to hang out with them."
     "\nYour mom laughs at you and says there is no way, and you have to wash the floors with a toothbrush."
-    "\nwhat do you do? " + str(name) +"?\n"
+    "\nwhat do you do " + str(name) +"?\n"
     "a) Sneak out anyways and suffer the concequences \n"
     "b) Yell at her and leave anyway \n"
     "c) Use your moms toothbrush to clean the floors")
